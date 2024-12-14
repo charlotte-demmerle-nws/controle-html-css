@@ -1,0 +1,36 @@
+.header {
+  background-color: #f5f7fa;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-and-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  margin-top: 40 pex;
+}
+
+.text h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.color-text {
+  color: #4caf4f;
+}
+
+.button {
+  background-color: #4caf4f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
