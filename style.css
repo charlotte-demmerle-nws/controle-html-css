@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   padding: 70px;
-  margin-top: 40 pex;
+  margin-top: 40 px;
 }
 
 .text h1 {
@@ -37,4 +37,19 @@
 
 .en-tete {
   text-align: center;
+}
+
+.bloc {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.paragraph3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 40 pex;
 }
