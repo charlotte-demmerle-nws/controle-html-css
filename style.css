@@ -1,3 +1,5 @@
+/*En tête*/
+
 .header {
   background-color: #f5f7fa;
   padding: 20px;
@@ -7,7 +9,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20 px;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.button {
+  background-color: #4caf4f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*BLOC*/
 
 .text-and-image {
   display: flex;
@@ -26,13 +55,8 @@
   color: #4caf4f;
 }
 
-.button {
-  background-color: #4caf4f;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  text-decoration: none;
-  border-radius: 5px;
+.paragraph2 {
+  padding: 90px;
 }
 
 .en-tete {
@@ -50,7 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 90px;
   margin-top: 40 pex;
 }
 
@@ -58,7 +82,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 50px;
   margin-top: 40 pex;
 }
 
@@ -68,8 +92,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 83%;
+  width: 80%;
   margin: auto;
+  font-size: 30px;
 }
 
 .footer {
